@@ -1,5 +1,8 @@
 # LiveWallpaper
 
+<img width="1481" height="1002" alt="image" src="https://github.com/user-attachments/assets/ba1ca091-9fe2-43fc-9a66-7c0e9940c350" />
+
+
 A lightweight Windows live wallpaper application for local MP4, WebM, MKV, and MOV video files.
 
 Run `build.bat` from a normal command prompt. It locates Visual Studio 2022 C++
