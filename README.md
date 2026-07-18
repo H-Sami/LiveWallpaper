@@ -14,12 +14,6 @@ installed on the machine; unsupported codecs produce an Apply/preview error rath
 than silently adding a bundled playback runtime. Preferences are saved under the
 current user's local app data.
 
-## Distribution
-
-The release installer is `dist\LiveWallpaper-Setup-x64.exe`. It installs per-user,
-so administrator access is not required and the .NET runtime does not need to be
-installed separately.
-
 ## Install and use
 
 1. Run `LiveWallpaper-Setup-x64.exe` and complete the setup wizard.
