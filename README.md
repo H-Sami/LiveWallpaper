@@ -16,11 +16,6 @@ current user's local app data.
 
 ## Distribution
 
-The production distribution target is a conventional self-contained x64 setup
-executable containing the native host and WPF controller. It is not an MSIX package
-and requires no Microsoft Store certification. Development builds are unsigned, so
-Windows SmartScreen may warn until an Authenticode certificate is added.
-
 The release installer is `dist\LiveWallpaper-Setup-x64.exe`. It installs per-user,
 so administrator access is not required and the .NET runtime does not need to be
 installed separately.
