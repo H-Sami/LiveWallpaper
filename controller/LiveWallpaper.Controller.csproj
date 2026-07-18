@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>LiveWallpaper</AssemblyName>
+    <RootNamespace>LiveWallpaper.Controller</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\LiveWallpaper.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <Authors>LiveWallpaper</Authors>
+    <Product>LiveWallpaper</Product>
+    <Description>Modern controller for the native LiveWallpaper host</Description>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <UseAppHost>true</UseAppHost>
+    <PublishSingleFile>false</PublishSingleFile>
+    <PublishTrimmed>false</PublishTrimmed>
+    <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Assets\LiveWallpaper.ico" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\LiveWallpaper.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\build\LiveWallpaper.Host.exe" Link="LiveWallpaper.Host.exe"
+             CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+</Project>

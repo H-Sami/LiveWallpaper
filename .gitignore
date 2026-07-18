@@ -1,0 +1,14 @@
+# Build output
+build/
+out/
+artifacts/
+dist/
+**/bin/
+**/obj/
+tests/fixtures/
+*.obj
+*.pdb
+*.ilk
+*.res
+*.log
+.vs/
